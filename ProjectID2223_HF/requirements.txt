@@ -1,0 +1,6 @@
+gradio
+hopsworks
+transformers
+torch
+pandas
+pyarrow
