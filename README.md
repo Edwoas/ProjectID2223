@@ -82,7 +82,7 @@ mentioned the classifier head was for this reason only fine-tuned for eight epoc
 trying out different classifier architectures, dropout-rates, batch-sizes, etc. with the difference that this model
 got the lowest loss.
 
-![train_val_loss.png](..%2F..%2FDocuments%2FID2223_ProjPlots%2FUnbalanced%20dataset%2Ftrain_val_loss.png)
+![train_val_loss.png](Images/train_val_loss.png)
 
 ### Precision and Recall
 
@@ -92,9 +92,9 @@ surprisingly since it was over-represented in the dataset. Class 1 and 4 improve
 suggesting that they learn to avoid false positives while class 2 and 3 show no clear
 trends.
 
-![recall_per_class.png](..%2F..%2FDocuments%2FID2223_ProjPlots%2FUnbalanced%20dataset%2Frecall_per_class.png)
+![recall_per_class.png](Images/recall_per_class.png)
 
-![precision_per_class.png](..%2F..%2FDocuments%2FID2223_ProjPlots%2FUnbalanced%20dataset%2Fprecision_per_class.png)
+![precision_per_class.png](Images/precision_per_class.png)
 
 ### Fraction of samples Off by Ratings over Epochs
 Here we can see that the most common mistake the model makes when misclassifying 
@@ -105,7 +105,7 @@ points were most rare. Since the models was fairly accurate in predicting the cl
 (which also was over-represented), this plot should be taken with a grain of salt. 
 The confusion matrix below gives more insight into how good each class did.
 
-![fractions_off.png](..%2F..%2FDocuments%2FID2223_ProjPlots%2FUnbalanced%20dataset%2Ffractions_off.png)
+![fractions_off.png](Images/fractions_off.png)
 
 ### Confusion Matrix
 The confusion matrix gives a clear overview of the distribution of how the model performed
@@ -115,7 +115,7 @@ a review as either having a very low or high rating, and we can see that quite m
 were incorrectly predicted as 1's or 5's. Due to limited time, augmentations techniques
 were not looked in to which could have balanced the dataset and predictions more.
 
-![confusion_matrix.png](..%2F..%2FDocuments%2FID2223_ProjPlots%2FUnbalanced%20dataset%2Fconfusion_matrix.png)
+![confusion_matrix.png](Images/confusion_matrix.png)
 
 ### Test Set
 
@@ -123,7 +123,7 @@ Test Loss: 0.9266
 
 Test Accuracy: 0.6266
 
-![confusion_matrix_test.png](..%2F..%2FDocuments%2FID2223_ProjPlots%2FUnbalanced%20dataset%2Fconfusion_matrix_test.png)
+![confusion_matrix_test.png](Images/confusion_matrix_test.png)
 
 
 ## UI and Inference Pipeline
